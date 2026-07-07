@@ -1,0 +1,138 @@
+/* --------------------------
+        GOOGLE FONT
+   -------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
+
+/* ----------------------------
+        VARIABLES
+   ---------------------------- */
+
+:root{
+
+    --green-dark:#0F3D2E;
+    --green:#1B5E3C;
+    --green-light:#6B8F4E;
+
+    --beige:#F6F2ED;
+    --off-white:#FAFAF8;
+    --white:#FFFFFF;
+
+    --gray-light:#E8E5E1;
+    --gray:#8A8A8A;
+    --text:#2F2F2F;
+
+}
+
+
+/* -----------------
+        RESET
+   ----------------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Inter',sans-serif;
+    background:var(--off-white);
+    color:var(--text);
+
+}
+
+
+
+/* ----------------------------
+        HERO SECTION
+   --------------------------- */
+
+.hero-section-evenement{
+
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+    linear-gradient(rgba(15,61,46,.55),rgba(15,61,46,.55)),
+    url("image-hero-section-evenement.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+
+/* -__________________
+            TITRE
+    __________________ */
+
+.hero-section-evenement h1{
+
+    font-family:'Playfair Display',serif;
+
+    font-weight: bold;
+
+    font-size:48px;
+
+    color:var(--white);
+
+    margin-bottom:25px;
+
+}
+
+
+/* ----------------------------
+            PARAGRAPHE
+   ----------------------------*/
+
+.hero-section-evenement p{
+
+    font-family:'Playfair Display',serif;
+    
+    max-width:700px;
+
+    font-size: 18px;
+    
+    line-height:1.8;
+
+    color:var(--white);
+
+}
+
+
+/* -------------------------
+        RESPONSIVE
+   ------------------------- */
+
+@media screen and (max-width:768px){
+
+.hero-section-evenement{
+
+    min-height:70vh;
+
+    padding:0 30px;
+
+}
+
+.hero-section-evenement h1{
+
+    font-size:2.4rem;
+
+}
+
+.hero-section-evenement p{
+
+    font-size:1rem;
+
+}
+
+}
