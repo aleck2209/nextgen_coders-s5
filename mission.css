@@ -43,6 +43,7 @@
 
 .mission-presentation {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 /* section mission card */
@@ -356,6 +357,7 @@
 
   .method h2 {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .method-container-card {
@@ -385,5 +387,65 @@
 
   .donate-btn {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* section introduction mission */
+  .mission-main {
+    padding: 4rem 0;
+  }
+
+  .mission-intro {
+    margin: 0 auto 3rem;
+    max-width: 850px;
+  }
+
+  .mission-title {
+    font-size: 3rem;
+  }
+
+  /* section mission card */
+  .mission-cards {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 2rem 4rem;
+  }
+
+  .mission-card-one p,
+  .mission-card-two-container-text p,
+  .mission-card-three-container-text p,
+  .mission-card-four-container-text p,
+  .mission-card-six-container-text p,
+  .mission-card-five p {
+    font-size: 1rem;
+  }
+
+  /* section method */
+  .method {
+    padding: 2rem 4rem;
+  }
+
+  .method-container {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+  }
+
+  /* section donate */
+  .donate {
+    padding: 2rem 4rem;
+  }
+
+  .donate-container {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+  }
+
+  .donate-container p {
+    font-size: 3rem;
+  }
+
+  .donate-btn {
+    font-size: 1.25rem;
   }
 }
