@@ -113,7 +113,7 @@ body{
         RESPONSIVE
    ------------------------- */
 
-@media screen and (max-width:768px){
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
 
 .hero-section-evenement{
 
@@ -405,7 +405,7 @@ body{
         RESPONSIVE
 ------------------------------------ */
 
-@media(max-width:992px){
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
 
 .section-premiere{
 
@@ -430,7 +430,7 @@ body{
 }
 
 
-@media(max-width:768px){
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
 
 .section-premiere{
 
@@ -737,7 +737,7 @@ button:hover{
         RESPONSIVE
 ------------------------------------ */
 
-@media(max-width:992px){
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
 
 section[aria-labelledby="calendar-title"]{
 
@@ -972,7 +972,7 @@ button{
         RESPONSIVE
 ------------------------------------ */
 
-@media(max-width:768px){
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
 
 .carte-rejoins-nous{
 
