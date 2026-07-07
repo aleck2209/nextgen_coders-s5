@@ -458,3 +458,554 @@ body{
 }
 
 }
+
+/* ------------------------------------
+        CALENDRIER
+------------------------------------ */
+
+section[aria-labelledby="calendar-title"]{
+
+    max-width:1300px;
+
+    margin:100px auto;
+
+    padding:0 40px;
+
+}
+
+
+/* ------------------------------------
+        TITRE
+------------------------------------ */
+
+section header{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+
+#calendar-title{
+
+    font-family:"Playfair Display",serif;
+
+    font-size:36px;
+
+    color:var(--text);
+
+    margin-bottom:20px;
+
+}
+
+
+section header hr{
+
+    width:90px;
+
+    height:3px;
+
+    margin:auto;
+
+    border:none;
+
+    background:var(--green-dark);
+
+}
+
+
+/* ------------------------------------
+        TABLEAU
+------------------------------------ */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:var(--white);
+
+    border:1px solid var(--gray-light);
+
+    border-radius:6px;
+
+    overflow:hidden;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+
+caption{
+
+    padding:25px;
+
+    background:var(--off-white);
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    text-align:left;
+
+}
+
+
+/* ------------------------------------
+        EN-TÊTE
+------------------------------------ */
+
+thead{
+
+    background:var(--green-dark);
+
+}
+
+
+thead th{
+
+    padding:20px;
+
+    color:var(--white);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    text-align:left;
+
+}
+
+
+/* ------------------------------------
+        LIGNES
+------------------------------------ */
+
+tbody tr{
+
+    transition:.3s ease;
+
+}
+
+
+tbody tr:nth-child(even){
+
+    background:var(--off-white);
+
+}
+
+
+tbody tr:hover{
+
+    background:var(--beige);
+
+}
+
+
+tbody td{
+
+    padding:24px 20px;
+
+    border-bottom:1px solid var(--gray-light);
+
+    vertical-align:middle;
+
+}
+
+
+/* ------------------------------------
+        DATE
+------------------------------------ */
+
+time strong{
+
+    display:block;
+
+    color:var(--green-dark);
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+
+small{
+
+    color:var(--gray);
+
+    font-size:14px;
+
+}
+
+
+/* ------------------------------------
+        ÉVÉNEMENT
+------------------------------------ */
+
+tbody h3{
+
+    font-family:"Playfair Display",serif;
+
+    color:var(--text);
+
+    font-size:22px;
+
+    margin-bottom:8px;
+
+}
+
+
+tbody p{
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+
+/* ------------------------------------
+        LIEU
+------------------------------------ */
+
+address{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:var(--text);
+
+    font-style:normal;
+
+}
+
+
+address i{
+
+    color:var(--green);
+
+    font-size:18px;
+
+}
+
+
+/* ------------------------------------
+        BOUTON
+------------------------------------ */
+
+button{
+
+    padding:12px 24px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:var(--green-dark);
+
+    color:var(--white);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+
+}
+
+
+button:hover{
+
+    background:var(--green);
+
+    transform:translateY(-2px);
+
+}
+
+
+/* ------------------------------------
+        RESPONSIVE
+------------------------------------ */
+
+@media(max-width:992px){
+
+section[aria-labelledby="calendar-title"]{
+
+    padding:0 20px;
+
+}
+
+table,
+thead,
+tbody,
+tr,
+td,
+th{
+
+    display:block;
+
+}
+
+thead{
+
+    display:none;
+
+}
+
+tbody tr{
+
+    margin-bottom:25px;
+
+    border:1px solid var(--gray-light);
+
+    border-radius:6px;
+
+    overflow:hidden;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+tbody td{
+
+    border:none;
+
+    padding:18px 20px;
+
+}
+
+button{
+
+    width:100%;
+
+}
+
+}
+
+
+/* ------------------------------------
+        REJOIGNEZ-NOUS
+------------------------------------ */
+
+.carte-rejoins-nous{
+
+    max-width:900px;
+
+    margin:100px auto;
+
+    padding:60px 50px;
+
+    background:var(--beige);
+
+    border:1px solid var(--gray-light);
+
+    border-radius:6px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+
+/* ------------------------------------
+        TITRE
+------------------------------------ */
+
+.carte-rejoins-nous h2{
+
+    font-family:"Playfair Display",serif;
+
+    font-size:36px;
+
+    color:var(--text);
+
+    margin-bottom:20px;
+
+}
+
+
+/* ------------------------------------
+        DESCRIPTION
+------------------------------------ */
+
+.carte-rejoins-nous>p{
+
+    max-width:650px;
+
+    margin:0 auto 40px;
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+
+/* ------------------------------------
+        FORMULAIRE
+------------------------------------ */
+
+.carte-rejoins-nous form{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
+
+    gap:16px;
+
+    flex-wrap:wrap;
+
+}
+
+
+/* ------------------------------------
+        LABEL
+------------------------------------ */
+
+.carte-rejoins-nous label{
+
+    display:block;
+
+    width:100%;
+
+    text-align:left;
+
+    color:var(--text);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+
+/* ------------------------------------
+        CHAMP EMAIL
+------------------------------------ */
+
+.carte-rejoins-nous input{
+
+    flex:1;
+
+    min-width:280px;
+
+    padding:14px 18px;
+
+    border:1px solid var(--gray-light);
+
+    border-radius:6px;
+
+    background:var(--white);
+
+    color:var(--text);
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s ease;
+
+}
+
+
+.carte-rejoins-nous input:focus{
+
+    border-color:var(--green-dark);
+
+    box-shadow:0 0 0 3px rgba(15,61,46,.12);
+
+}
+
+
+/* ------------------------------------
+        BOUTON
+------------------------------------ */
+
+.carte-rejoins-nous button{
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:var(--green-dark);
+
+    color:var(--white);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+
+}
+
+
+.carte-rejoins-nous button:hover{
+
+    background:var(--green);
+
+}
+
+
+/* ------------------------------------
+        RESPONSIVE
+------------------------------------ */
+
+@media(max-width:768px){
+
+.carte-rejoins-nous{
+
+    margin:80px 20px;
+
+    padding:40px 25px;
+
+}
+
+.carte-rejoins-nous h2{
+
+    font-size:30px;
+
+}
+
+.carte-rejoins-nous form{
+
+    flex-direction:column;
+
+    align-items:stretch;
+
+}
+
+.carte-rejoins-nous input{
+
+    min-width:100%;
+
+}
+
+.carte-rejoins-nous button{
+
+    width:100%;
+
+}
+
+}
