@@ -1,10 +1,13 @@
+/* police ajouter */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 body {
   background-color: #ffeedf;
+  font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -14,8 +17,11 @@ body {
   justify-content: center;
   height: 95vh;
   flex-direction: column;
-  background-image: url(Elephant.jpg);
+  background-image:
+    linear-gradient(rgba(15, 61, 46, 0.15), rgba(15, 61, 46, 0.75)),
+    url("Elephant.jpg");
   background-size: cover;
+  color: #e8e5e1;
 }
 
 .btn-hero button {
@@ -28,11 +34,11 @@ body {
   cursor: pointer;
   border-radius: 5px;
   background-color: #fff;
-  color: #264e3d;
+  color: #6b8f4e;
   font-size: 18px;
 }
 .btn-hero button:hover {
-  background-color: #264e3d;
+  background-color: #6b8f4e;
   color: #fff;
 }
 
@@ -96,12 +102,14 @@ body {
   color: #fff;
 }
 .don a button {
+  margin-top: 10px;
   height: 45px;
   width: 150px;
   color: #0c3a23;
 }
 .don a button:hover {
-  background-color: #0fba65;
+  background-color: #6b8f4e;
+  border-radius: 10px;
   color: #fff;
   cursor: pointer;
 }
