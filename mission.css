@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variable */
+:root {
+  /* colors */
+  --forest-green: #0f3d2e; /* Boutons, footer, éléments actifs */
+  --dark-green: #1b5e3c; /* Icônes, accents */
+  --olive-green: #6b8f4e; /* Détails naturels */
+  --warm-beige: #f6f2ed; /* Fond des sections */
+  --off-white: #fafaf8; /* Arrière-plan principal */
+  --light-gray: #e8e5e1; /* Bordures, cartes */
+  --medium-gray: #8a8a8a; /* Textes secondaire*/
+  --Charcoal: #2f2f2f; /* Titre de texte */
+  --white: #ffffff; /* Texte sur image */
+}
+
+.mission-main {
+  font-family: "Inter", "Lato", 'Open Sans', sans-serif;
+  background-color: var(--off-white);
+}
+
+/* section introduction mission */
+.mission-intro {
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mission-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.mission-presentation {
+  font-size: 1rem;
+}
+
+/* section mission card */
+.mission-cards {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* mission card one */
+.mission-card-one {
+  background-image: url("");
+}
