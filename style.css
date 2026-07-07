@@ -109,7 +109,6 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   body {
     text-align: center;
-    background-color: red;
   }
   .missions {
     display: flex;
