@@ -119,7 +119,7 @@ NAV BAR
 
   background-image:
     linear-gradient(rgba(15, 61, 46, 0.55), rgba(15, 61, 46, 0.55)),
-    url("image-hero-section-evenement.jpg");
+    url("../images/image-hero-section-evenement.jpg");
 
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ NAV BAR
 
   background-image:
     linear-gradient(rgba(15, 61, 46, 0.15), rgba(15, 61, 46, 0.75)),
-    url("image-section1-main.jpg");
+    url("../images/image-section1-main.jpg");
 
   background-size: cover;
   background-position: center;

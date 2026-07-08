@@ -3,22 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    display: flex;
-    justify-content: flex-end;
-    background-color: #FAFAF8 ;
-    border-bottom: 1px solid #ccc;
-}
-header button{
-    background-color: #0F3D2E ;
-    border-radius: 5px;
-    height: 40px;
-    color: white;
-    border: none;
-    margin: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
 
 .hero{
     min-height:100vh;
@@ -27,7 +11,7 @@ header button{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #FAFAF8  ;
+    background-color: #FAFAF8;
 }
 .hero-contenu{
     height: 70%;
@@ -51,7 +35,7 @@ header button{
     text-align: justify;
 }
 .hero-image{
-    background-image:url("img/Elephant.jpg");
+    background-image:url("../images/Elephant.jpg");
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat; 
@@ -245,7 +229,7 @@ button:hover{
     cursor: pointer;
 }
 .phrase{
-    background-image: url("img/savanne.jpg") ;
+    background-image: url("../images/savanne.jpg") ;
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
