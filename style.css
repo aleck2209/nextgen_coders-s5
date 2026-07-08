@@ -1,0 +1,140 @@
+/* police ajouter */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffeedf;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 95vh;
+  flex-direction: column;
+  background-image:
+    linear-gradient(rgba(15, 61, 46, 0.15), rgba(15, 61, 46, 0.75)),
+    url("Elephant.jpg");
+  background-size: cover;
+  color: #e8e5e1;
+}
+
+.btn-hero button {
+  text-align: center;
+  align-items: center;
+  margin-top: 25px;
+  height: 40px;
+  width: auto;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #6b8f4e;
+  font-size: 18px;
+}
+.btn-hero button:hover {
+  background-color: #6b8f4e;
+  color: #fff;
+}
+
+/* ------------------------------------------ */
+.missions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 50px;
+  place-items: center;
+  color: #113624;
+}
+.mission-text h2 {
+  margin-bottom: 15px;
+}
+.mission-text p {
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.chiffre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  gap: 20px;
+  place-items: center;
+}
+
+.chiffre p {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f6f2ed;
+  color: #1b5e3c;
+}
+.chiffre strong {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.chiffre span {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.img-mission img {
+  width: 350px;
+  height: auto;
+}
+
+/* ------------------------------------------- */
+
+.don {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  background-color: #0c3a23;
+  color: #fff;
+}
+.don a button {
+  margin-top: 10px;
+  height: 45px;
+  width: 150px;
+  color: #0c3a23;
+}
+.don a button:hover {
+  background-color: #6b8f4e;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+  .missions {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+  .chiffre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .chiffre p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .img-mission img {
+    display: none;
+  }
+}
