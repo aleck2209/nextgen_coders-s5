@@ -2,30 +2,25 @@
 
 header {
   font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: center;
-  background-color: #FAFAF8 ;
-  border-bottom: 1px solid #ccc;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 90px;
-  
+  padding: 10px;
 }
 .nav a {
   text-decoration: none;
   color: #264e3d;
 }
 .nav a button {
-  width: 150px;
-  height: auto;
+  width: 100px;
+  height: 30px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #264e3d;
-  color: #fff;
+  background-color: #fff;
+  color: #264e3d;
 }
 .nav a button:hover {
   background-color: #6b8f4e;
