@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap");
+
+header {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAF8 ;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  
+}
+.nav a {
+  text-decoration: none;
+  color: #264e3d;
+}
+.nav a button {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #264e3d;
+  color: #fff;
+}
+.nav a button:hover {
+  background-color: #6b8f4e;
+  color: #fff;
+}
+.nav a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  justify-content: space-between;
+  margin: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .nav a {
+    display: flex;
+  }
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav {
+    font-size: 1.5rem;
+  }
+}
