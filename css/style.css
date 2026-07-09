@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   background-image:
     linear-gradient(rgba(15, 61, 46, 0.15), rgba(15, 61, 46, 0.75)),
-    url("Elephant.jpg");
+    url("../images/Elephant-accueil.jpg");
   background-size: cover;
   color: #e8e5e1;
 }
